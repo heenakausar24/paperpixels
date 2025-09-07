@@ -1,9 +1,14 @@
-
+import Navbar  from "./components/Navbar";
+import React from "react";
 function App() {
   
 
   return (
-   <h1>PAPERPIXELS IS LIVE!</h1>
+    <>
+   <div className="navbbar">
+   <Navbar/>
+   </div>
+    </>
   )
 }
 

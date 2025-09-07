@@ -1,0 +1,63 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:stretch;
+    padding: 15px 7%;
+    padding-top: 3px;
+    background-attachment: fixed;
+      
+}
+
+
+.links{
+    display: flex;
+    gap: 4rem; 
+    list-style: none;
+    padding-top: 25px;
+    padding-left: 230px;
+    font-weight: bold;
+    justify-content:stretch;
+}
+
+
+.logo{
+    height: 50px;
+    width:  200px;
+    margin-left: 0;  
+
+}
+
+.loginbtn{
+ margin-top: 10px; 
+ margin-left: 180px;
+  height: 35px;
+  width: 90px;
+  border: 0cm;
+  border-radius: 30px;
+  background-color: #6D6664;
+  font-family: inherit;
+  font-weight:bolder;
+  font-size: medium;
+  color: #F5F5F5;
+ 
+}
+
+.demobtn{
+   margin-top: 10px; 
+ margin-left: 30px;
+  height: 35px;
+  width: 90px;
+  border: 0cm;
+  border-radius: 30px;
+  color: #F5F5F5;
+  background-color: #FF6523;
+  font-family: inherit;
+  font-weight: bolder;
+  font-size: medium;
+}
+
+.btncont {
+  display: flex;
+  justify-content: flex-end; /* pushes buttons to the right */
+}
