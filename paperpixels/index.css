@@ -1,11 +1,12 @@
 /*#F5F5F5  -- white
 #FF6523  -- orange
 */
+@import "tailwindcss";
 *{
      margin-left:0; 
      box-sizing: border-box;  
      font-family: "Söhne", "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
-     color: #6D6664;
+    
     
 
 }

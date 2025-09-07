@@ -1,0 +1,62 @@
+body{
+    
+background-color: #EDF7FF;
+
+
+}
+.hero {
+  display: flex;
+  align-items: center;     /* vertically align text + animation */
+  justify-content: space-between;
+
+}
+.heading1{
+ font-size: 48px;
+    font-weight: bolder;
+     color: #4a4543;
+      padding: 0px 0px 0px 50px; 
+           padding-top: 100px;
+   
+}
+
+.heading2{
+   
+ font-size: 48px;
+    font-weight: bolder;
+     color: #4a4543;
+      padding: 0px 0px 0px 50px; 
+       
+   
+}
+
+
+.getstartedbtn{
+    margin-top: 20px;
+      height: 35px;
+  width: 120px;
+  border: 0cm;
+  border-radius: 60px;
+ 
+  color: #F5F5F5;
+  background-color: #FF6523;
+  font-family: inherit;
+  font-weight: bolder;
+  font-size: medium;
+  margin-left: 50px;
+}
+
+.getstartedbtn:hover{
+     background-color: #e64a19; /* darker orange */
+  cursor: pointer;
+  color: white;
+}
+
+
+
+
+.lottie{
+    height: 570px;
+    width: 570px;
+      padding-top: 100px;
+}
+

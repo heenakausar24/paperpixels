@@ -1,3 +1,4 @@
+import Hero from "./components/Hero";
 import Navbar  from "./components/Navbar";
 import React from "react";
 function App() {
@@ -5,8 +6,11 @@ function App() {
 
   return (
     <>
-   <div className="navbbar">
+   <div>
    <Navbar/>
+   </div>
+   <div>
+   <Hero/>
    </div>
     </>
   )

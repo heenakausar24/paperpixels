@@ -14,10 +14,11 @@ ul {
     align-items: center;
     justify-content:flex-start;
     background-attachment: fixed;
-     
+      position: fixed;
+      z-index: 1000;
      height: 55px; 
      padding: 0px 0px 0px 50px; 
-     background-color: #F5F5F5 ;
+     background-color: #E8E8E8 ;
 }
 
 
@@ -28,17 +29,27 @@ ul {
     font-size: 18px;
     font-weight: bolder;
     justify-content:stretch;
+    color: #6D6664;
 }
 
 .linkscont{
   padding-left: 170px;
 
 }
+.links:hover{
+
+   cursor: pointer;
+              
+}
 
 
 .logo{
     height: 50px;
     width:  200px;
+}
+
+.logo:hover{
+  cursor: pointer;
 }
 
 .btncont {
@@ -53,7 +64,7 @@ ul {
  margin-left: 180px;
   height: 35px;
   width: 90px;
-  border: 0cm;
+ 
   border-radius: 30px;
   background-color: #6D6664;
   font-family: inherit;
@@ -68,7 +79,7 @@ ul {
  margin-left: 30px;
   height: 35px;
   width: 90px;
-  border: 0cm;
+ 
   border-radius: 30px;
   color: #F5F5F5;
   background-color: #FF6523;
