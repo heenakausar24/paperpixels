@@ -6,15 +6,16 @@ function Navbar() {
   
 
   return (
-  <div className="navbar flex justify-start">
-  <img src={logo} alt="paperpixels!" className="logo w-48"></img>
-  
+  <div className="navbar">
+  <img src={logo} alt="paperpixels!" className="logo"></img>
+<div className="linkscont">
   <ul className="links">
     <li> Home</li>
-    <li> Home</li>
+    <li> home</li>
     <li> Features</li>
     <li> Contact Us</li>
   </ul>
+  </div>
   <div className="btncont">
  <button className="loginbtn" > Login</button>
   <button className="demobtn" > Demo</button>

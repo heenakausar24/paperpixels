@@ -1,12 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content:stretch;
-    padding: 15px 7%;
-    padding-top: 3px;
+    justify-content:flex-start;
     background-attachment: fixed;
-      
+     
+     height: 55px; 
+     padding: 0px 0px 0px 50px; 
+     background-color: #F5F5F5 ;
 }
 
 
@@ -14,18 +25,27 @@
     display: flex;
     gap: 4rem; 
     list-style: none;
-    padding-top: 25px;
-    padding-left: 230px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: bolder;
     justify-content:stretch;
+}
+
+.linkscont{
+  padding-left: 170px;
+
 }
 
 
 .logo{
     height: 50px;
     width:  200px;
-    margin-left: 0;  
+}
 
+.btncont {
+  margin-top: -12px;
+  display: flex;
+   margin-left:10px;
+  justify-content: flex-end;
 }
 
 .loginbtn{
@@ -44,7 +64,7 @@
 }
 
 .demobtn{
-   margin-top: 10px; 
+  margin-top: 10px; 
  margin-left: 30px;
   height: 35px;
   width: 90px;
@@ -57,7 +77,15 @@
   font-size: medium;
 }
 
-.btncont {
-  display: flex;
-  justify-content: flex-end; /* pushes buttons to the right */
+.loginbtn:hover {
+  background-color: #4a4543; 
+  cursor: pointer;
+   color: white;          
 }
+
+.demobtn:hover {
+  background-color: #e64a19; /* darker orange */
+  cursor: pointer;
+  color: white;
+}
+
