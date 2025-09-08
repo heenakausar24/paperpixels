@@ -1,0 +1,107 @@
+.login-card1 {
+  height: 500px;
+  width: 1000px;
+  background-color:  #F5F5F5;
+  border-radius: 1%;
+  box-shadow: 5px 5px 5px rgb(121, 119, 119);
+  margin-top: 50px;
+  margin-left: 180px;
+  display: flex;   
+             
+}
+
+.left-section {
+  flex: 1;                    
+  display: flex;
+  flex-direction: column;   /* 🔹 stack children vertically */
+ 
+  align-items: flex-start;    
+  justify-content: flex-start;  
+  padding: 20px;
+}
+
+.login-card2 {
+  flex: 1;                      
+  background-color: #E8E8E8;
+  border-radius: 1%;
+   display: flex;              
+  flex-direction: column;     
+  align-items: start;       
+  
+}
+
+.logo {
+  height: 40px;
+  width: 150px;
+  margin-left: 10px;
+  
+}
+
+.loginlottie{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.welcome-text{
+     
+    color: #FF6523 ;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+     width: 100%; 
+     margin-top: 30px;
+    
+}
+
+.emailpass-text{
+    color:#6D6664;
+    font-weight: normal;
+    margin-left: 70px;
+}
+
+.emailin{
+ 
+    border-color: #6D6664;
+    height: 35px;
+    width: 70%;
+  padding: 10px;
+  border: 1px solid #6D6664;   
+  border-radius: 10px;       
+    margin-left: 70px;
+
+  outline: none; 
+}
+
+.forgot{
+    font-size:small;
+    margin-left: 300px;  
+    margin-top: 10px;
+
+}
+.forgot:hover{
+    cursor: pointer;
+}
+
+.loginbtn{
+    width: 100px;
+     border-radius: 10px;  
+     margin-top: 30px;
+}
+
+.register{
+     font-size:small;
+     margin-top: 20px;
+     display: flex;    
+     padding-left: 130px; 
+}
+
+.register2{
+    padding-left: 5px;
+    color: #FF6523;
+}
+.register2:hover{
+    cursor: pointer;
+}
