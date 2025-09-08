@@ -7,14 +7,14 @@ function App() {
 
   return (
     <>
-   {/* <div>
+    {/* <div>
    <Navbar/>
    </div>
    <div>
    <Hero/>
-   </div> */}
+   </div>  */}
 
-   <Login/>
+   <Login/> 
     </>
   )
 }

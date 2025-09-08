@@ -29,7 +29,7 @@ export default function Login() {
   <h3 className="emailpass-text"> Password</h3>
   <input type="password" className="emailin" placeholder="***********"></input>
   <h2 className="forgot"> forgot password?</h2>
-  <button className="loginbtn">Log in</button>
+  <button className="login">Log in</button>
   <h2 className="register"> Dont have an account? <h2 className="register2"> Register</h2></h2>
   </div>
 </div>
