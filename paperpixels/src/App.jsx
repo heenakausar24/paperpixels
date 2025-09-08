@@ -2,6 +2,8 @@ import Hero from "./components/Hero";
 import Navbar  from "./components/Navbar";
 import Login from "./components/Login";
 import React from "react";
+import Sign from "./components/Sign";
+
 function App() {
   
 
@@ -12,9 +14,13 @@ function App() {
    </div>
    <div>
    <Hero/>
-   </div>  */}
+   </div>  
 
    <Login/> 
+    </>
+
+    */}
+    <Sign> </Sign>
     </>
   )
 }

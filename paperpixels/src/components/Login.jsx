@@ -30,7 +30,7 @@ export default function Login() {
   <input type="password" className="emailin" placeholder="***********"></input>
   <h2 className="forgot"> forgot password?</h2>
   <button className="login">Log in</button>
-  <h2 className="register"> Dont have an account? <h2 className="register2"> Register</h2></h2>
+  <h2 className="register"> Dont have an account? <h2 className="register2"> Sign up</h2></h2>
   </div>
 </div>
   
