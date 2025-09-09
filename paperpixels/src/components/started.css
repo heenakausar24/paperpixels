@@ -1,0 +1,12 @@
+
+
+.logoo{
+   height: 50px;
+    width:  200px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.logoo:hover{
+  cursor: pointer;
+}

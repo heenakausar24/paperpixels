@@ -3,24 +3,27 @@ import Navbar  from "./components/Navbar";
 import Login from "./components/Login";
 import React from "react";
 import Sign from "./components/Sign";
+import Started from "./components/Started";
 
 function App() {
   
 
   return (
     <>
-    {/* <div>
+     {/* <div>
    <Navbar/>
    </div>
    <div>
    <Hero/>
-   </div>  
+   </div>   */}
 
-   <Login/> 
-    </>
+   {/* <Login/>  */}
+    
 
-    */}
-    <Sign> </Sign>
+    
+    {/* <Sign> </Sign> */}
+
+    {/* <Started/> */}
     </>
   )
 }
